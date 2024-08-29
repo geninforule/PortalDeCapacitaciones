@@ -1,0 +1,138 @@
+﻿@{
+    ViewData["Title"] = "Search Results";
+    var category = ViewData["Category"] as string;
+    var query = ViewData["Query"] as string;
+    var videos = ViewData["Videos"] as List<PortalDeCapacitaciones.Controllers.Video>;
+    var pdfs = ViewData["PDFs"] as List<PortalDeCapacitaciones.Controllers.PDF>;
+}
+
+<style>
+    .search-results-container {
+        margin: 20px;
+        padding: 20px;
+        border-radius: 8px;
+        background-color: transparent;
+    }
+
+        .search-results-container h2 {
+            border-bottom: 2px solid #007bff;
+            padding-bottom: 10px;
+            margin-bottom: 20px;
+            color: #343a40;
+        }
+
+        .search-results-container p {
+            font-size: 1.2em;
+            color: #495057;
+        }
+
+        .search-results-container ul {
+            list-style-type: none;
+            padding: 0;
+            display: flex;
+            flex-wrap: wrap;
+        }
+
+            .search-results-container ul li {
+                padding: 20px;
+                border-bottom: 1px solid #e9ecef;
+                font-size: 1.1em;
+                display: inline-block; /* Alinea los elementos en línea */
+                align-items: center;
+                text-align: center;
+                margin-right: 15px; /* Espacio entre elementos en fila */
+                margin-bottom: 20px; /* Espacio entre filas de íconos */
+            }
+
+                .search-results-container ul li a {
+                    color: #007bff;
+                    text-decoration: none;
+                    text-align: center; /* Centra el texto debajo del ícono */
+                    display: block;
+                }
+
+                    .search-results-container ul li a:hover {
+                        text-decoration: underline;
+                    }
+
+    .pdf-icon {
+        font-size: 50px; /* Tamaño más grande para el ícono */
+        color: red; /* Color rojo para el ícono */
+        display: block; /* Esto hace que el ícono ocupe toda la línea, colocando el texto debajo */
+        text-align: center; /* Centra el ícono */
+        margin: 0 auto 10px auto; /* Centra el ícono y añade un margen inferior */
+    }
+
+    .no-results, .no-docs {
+        font-style: italic;
+        color: #6c757d;
+    }
+
+    .search-form {
+        margin-bottom: 20px;
+    }
+
+        .search-form input {
+            margin-right: 10px;
+        }
+
+        .search-form button {
+            background-color: #007bff;
+            color: white;
+            border: none;
+            padding: 10px 15px;
+            border-radius: 4px;
+            cursor: pointer;
+        }
+
+            .search-form button:hover {
+                background-color: #0056b3;
+            }
+</style>
+
+<div class="search-results-container">
+    <h2>Resultados:</h2>
+
+    @if (!string.IsNullOrEmpty(category) || !string.IsNullOrEmpty(query))
+    {
+        <p><strong>Categoria:</strong> @category</p>
+        <p><strong>Palabra:</strong> @query</p>
+        @if (videos != null && videos.Any())
+        {
+            <ul>
+                @foreach (var video in videos)
+                {
+                    <li>@video.Title</li>
+                }
+            </ul>
+        }
+        else
+        {
+            <p class="no-results">No se encontraron resultados.</p>
+        }
+    }
+    else
+    {
+        <p class="no-results">No se dio una categoria en especifica.</p>
+    }
+
+    <p>Documentos PDF disponibles:</p>
+
+    @if (pdfs != null && pdfs.Any())
+    {
+        <ul>
+            @foreach (var pdf in pdfs)
+            {
+                <li>
+                    <a href="@pdf.FilePath" download="@pdf.Name">
+                        <i class="fa fa-file-pdf-o pdf-icon" aria-hidden="true"></i> @pdf.Name
+                    </a>
+                </li>
+            }
+        </ul>
+    }
+    else
+    {
+        <p class="no-docs">No hay documentos PDF disponibles.</p>
+    }
+</div>

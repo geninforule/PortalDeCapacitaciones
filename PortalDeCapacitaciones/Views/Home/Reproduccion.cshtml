@@ -1,0 +1,15 @@
+﻿@*
+    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
+*@
+@{
+    Layout = "_Layout";
+    var videoId = ViewBag.VideoId.ToString();
+}
+
+<div class="container">
+    <h1>Reproducción de Video</h1>
+    <div class="ratio ratio-16x9">
+        <iframe src="https://www.youtube.com/embed/@ViewBag.VideoId" title="YouTube video" allowfullscreen></iframe>
+    </div>
+</div>
+

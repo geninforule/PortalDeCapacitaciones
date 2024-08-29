@@ -1,0 +1,111 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>@ViewData["Title"] - PortalDeCapacitaciones</title>
+    <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="~/css/site.css" asp-append-version="true" />
+    <link rel="stylesheet" href="~/PortalDeCapacitaciones.styles.css" asp-append-version="true" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/5.3.0/css/bootstrap.min.css" rel="stylesheet">
+
+
+    <style>
+        .navbar-custom {
+            background-color: #007bff;
+        }
+
+            .navbar-custom .navbar-nav .nav-link {
+                color: white;
+            }
+
+            .navbar-custom .navbar-brand {
+                color: white;
+            }
+
+        .separator {
+            border-top: 2px solid #007bff;
+            margin: 40px 0;
+        }
+
+        .navbar .navbar-collapse {
+            display: flex;
+            justify-content: center;
+            flex-grow: 1;
+        }
+
+        .navbar-nav {
+            margin-left: auto;
+        }
+
+        .logo-img {
+            max-width: 50px;
+            height: auto;
+        }
+
+        .pdf-icon {
+            font-size: 20px; /* Ajusta el tamaño del ícono */
+            vertical-align: middle; /* Alinea el ícono con el texto */
+            margin-right: 10px; /* Espacio entre el ícono y el texto */
+        }
+
+    </style>
+</head>
+<body>
+    <header>
+        <nav class="navbar navbar-expand-sm navbar-custom border-bottom box-shadow mb-3">
+            <div class="container-fluid">
+                <a class="navbar-brand" asp-area="" asp-controller="Home" asp-action="Index">
+                    <img src="/img/genpymelogo.png" alt="Logo" class="logo-img" />
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target=".navbar-collapse" aria-controls="navbarSupportedContent"
+                        aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="navbar-collapse collapse d-sm-inline-flex justify-content-center flex-grow-1">
+                    <!-- Asegúrate de que este es el lugar donde se quiere mostrar el search bar -->
+                    @await Html.PartialAsync("_SearchBar")
+                </div>
+                <div class="navbar-nav ms-auto">
+                    <a class="nav-link" href="#" title="Log out">
+                        <i class="fas fa-sign-out-alt"></i>
+                    </a>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <div class="container-fluid">
+        <main role="main" class="pb-3">
+            @RenderBody()
+
+            @if (ViewData["ShowCarousel"] != null && (bool)ViewData["ShowCarousel"])
+            {
+                @await Html.PartialAsync("_Carousel")
+            }
+          
+            <div class="separator"></div>
+            @if (ViewData["ShowVideoSection"] != null && (bool)ViewData["ShowVideoSection"])
+            {
+                @await Html.PartialAsync("_VideoSection")
+            }
+
+            @if (ViewData["ShowPDFSection"] != null && (bool)ViewData["ShowPDFSection"])
+            {
+                @await Html.PartialAsync("_PDFSection")
+            }
+
+
+        </main>
+    </div>
+    <footer class="border-top footer text-muted">
+        <div class="container">
+            &copy; 2024 - PortalDeCapacitaciones - <a asp-area="" asp-controller="Home" asp-action="Privacy">Privacy</a>
+        </div>
+    </footer>
+    <script src="~/lib/jquery/dist/jquery.min.js"></script>
+    <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="~/js/site.js" asp-append-version="true"></script>
+    @await RenderSectionAsync("Scripts", required: false)
+</body>
+</html>

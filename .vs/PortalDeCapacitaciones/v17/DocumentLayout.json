@@ -1,0 +1,121 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\GuillermoE\\source\\repos\\PortalDeCapacitaciones\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{80030134-1762-42D2-AEDA-6EF42753ACF0}|PortalDeCapacitaciones\\PortalDeCapacitaciones.csproj|c:\\users\\guillermoe\\source\\repos\\portaldecapacitaciones\\portaldecapacitaciones\\views\\shared\\_pdfsection.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{80030134-1762-42D2-AEDA-6EF42753ACF0}|PortalDeCapacitaciones\\PortalDeCapacitaciones.csproj|solutionrelative:portaldecapacitaciones\\views\\shared\\_pdfsection.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{80030134-1762-42D2-AEDA-6EF42753ACF0}|PortalDeCapacitaciones\\PortalDeCapacitaciones.csproj|c:\\users\\guillermoe\\source\\repos\\portaldecapacitaciones\\portaldecapacitaciones\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{80030134-1762-42D2-AEDA-6EF42753ACF0}|PortalDeCapacitaciones\\PortalDeCapacitaciones.csproj|solutionrelative:portaldecapacitaciones\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{80030134-1762-42D2-AEDA-6EF42753ACF0}|PortalDeCapacitaciones\\PortalDeCapacitaciones.csproj|c:\\users\\guillermoe\\source\\repos\\portaldecapacitaciones\\portaldecapacitaciones\\views\\search\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{80030134-1762-42D2-AEDA-6EF42753ACF0}|PortalDeCapacitaciones\\PortalDeCapacitaciones.csproj|solutionrelative:portaldecapacitaciones\\views\\search\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{80030134-1762-42D2-AEDA-6EF42753ACF0}|PortalDeCapacitaciones\\PortalDeCapacitaciones.csproj|c:\\users\\guillermoe\\source\\repos\\portaldecapacitaciones\\portaldecapacitaciones\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{80030134-1762-42D2-AEDA-6EF42753ACF0}|PortalDeCapacitaciones\\PortalDeCapacitaciones.csproj|solutionrelative:portaldecapacitaciones\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{80030134-1762-42D2-AEDA-6EF42753ACF0}|PortalDeCapacitaciones\\PortalDeCapacitaciones.csproj|c:\\users\\guillermoe\\source\\repos\\portaldecapacitaciones\\portaldecapacitaciones\\views\\shared\\_videosection.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{80030134-1762-42D2-AEDA-6EF42753ACF0}|PortalDeCapacitaciones\\PortalDeCapacitaciones.csproj|solutionrelative:portaldecapacitaciones\\views\\shared\\_videosection.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{80030134-1762-42D2-AEDA-6EF42753ACF0}|PortalDeCapacitaciones\\PortalDeCapacitaciones.csproj|c:\\users\\guillermoe\\source\\repos\\portaldecapacitaciones\\portaldecapacitaciones\\views\\home\\reproduccion.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{80030134-1762-42D2-AEDA-6EF42753ACF0}|PortalDeCapacitaciones\\PortalDeCapacitaciones.csproj|solutionrelative:portaldecapacitaciones\\views\\home\\reproduccion.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 4,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Reproduccion.cshtml",
+              "DocumentMoniker": "C:\\Users\\GuillermoE\\source\\repos\\PortalDeCapacitaciones\\PortalDeCapacitaciones\\Views\\Home\\Reproduccion.cshtml",
+              "RelativeDocumentMoniker": "PortalDeCapacitaciones\\Views\\Home\\Reproduccion.cshtml",
+              "ToolTip": "C:\\Users\\GuillermoE\\source\\repos\\PortalDeCapacitaciones\\PortalDeCapacitaciones\\Views\\Home\\Reproduccion.cshtml",
+              "RelativeToolTip": "PortalDeCapacitaciones\\Views\\Home\\Reproduccion.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-08-29T20:12:32.108Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "_VideoSection.cshtml",
+              "DocumentMoniker": "C:\\Users\\GuillermoE\\source\\repos\\PortalDeCapacitaciones\\PortalDeCapacitaciones\\Views\\Shared\\_VideoSection.cshtml",
+              "RelativeDocumentMoniker": "PortalDeCapacitaciones\\Views\\Shared\\_VideoSection.cshtml",
+              "ToolTip": "C:\\Users\\GuillermoE\\source\\repos\\PortalDeCapacitaciones\\PortalDeCapacitaciones\\Views\\Shared\\_VideoSection.cshtml",
+              "RelativeToolTip": "PortalDeCapacitaciones\\Views\\Shared\\_VideoSection.cshtml",
+              "ViewState": "AQIAAJAAAAAAAAAAAAAcwKEAAAAaAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-08-29T20:11:43.032Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "C:\\Users\\GuillermoE\\source\\repos\\PortalDeCapacitaciones\\PortalDeCapacitaciones\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "PortalDeCapacitaciones\\Controllers\\HomeController.cs",
+              "ToolTip": "C:\\Users\\GuillermoE\\source\\repos\\PortalDeCapacitaciones\\PortalDeCapacitaciones\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "PortalDeCapacitaciones\\Controllers\\HomeController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABYAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-29T19:25:47.415Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "_PDFSection.cshtml",
+              "DocumentMoniker": "C:\\Users\\GuillermoE\\source\\repos\\PortalDeCapacitaciones\\PortalDeCapacitaciones\\Views\\Shared\\_PDFSection.cshtml",
+              "RelativeDocumentMoniker": "PortalDeCapacitaciones\\Views\\Shared\\_PDFSection.cshtml",
+              "ToolTip": "C:\\Users\\GuillermoE\\source\\repos\\PortalDeCapacitaciones\\PortalDeCapacitaciones\\Views\\Shared\\_PDFSection.cshtml",
+              "RelativeToolTip": "PortalDeCapacitaciones\\Views\\Shared\\_PDFSection.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-08-29T19:25:24.422Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\GuillermoE\\source\\repos\\PortalDeCapacitaciones\\PortalDeCapacitaciones\\Views\\Search\\Index.cshtml",
+              "RelativeDocumentMoniker": "PortalDeCapacitaciones\\Views\\Search\\Index.cshtml",
+              "ToolTip": "C:\\Users\\GuillermoE\\source\\repos\\PortalDeCapacitaciones\\PortalDeCapacitaciones\\Views\\Search\\Index.cshtml",
+              "RelativeToolTip": "PortalDeCapacitaciones\\Views\\Search\\Index.cshtml",
+              "ViewState": "AQIAAEUAAAAAAAAAAAAAAHcAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-08-29T18:23:04.327Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "C:\\Users\\GuillermoE\\source\\repos\\PortalDeCapacitaciones\\PortalDeCapacitaciones\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "PortalDeCapacitaciones\\Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "C:\\Users\\GuillermoE\\source\\repos\\PortalDeCapacitaciones\\PortalDeCapacitaciones\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "PortalDeCapacitaciones\\Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AQIAAEcAAAAAAAAAAAAmwGAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-08-28T17:48:58.849Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
